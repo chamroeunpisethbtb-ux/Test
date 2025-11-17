@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="Test.html" method="post">
+        <label for="name">Full name</label>
+        <input type="text" name="name">
+        <br>Gender:<br>
+        Male<input type="radio" name="sex" id="sex">
+        female<input type="radio" name="sex" id="sex">
+        <br>
+        <label for="age">age:</label>
+        <select name="age">
+            <option value="">---Select---</option>
+            <option value="under18">under18</option>
+            <option value="18-25">18-25</option>
+            <option value="26-60">26-60</option>
+            <option value="older60">older than 60</option>
+        </select>    
+        <br><input type="checkbox" name="agree">
+        agree allow to save your data.
+        <br>
+        <label for="msg">Your message</label><br>
+        <textarea name="msg" rows="5" cols="30"></textarea><br>
+        <input type="button" type="reset" value="back">
+        <input type="reset" value="cancel">
+        <button type="submit">Send</button>
+    </form>
+        
+</body>
+</html>

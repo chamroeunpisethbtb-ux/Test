@@ -1,0 +1,11 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 10px;
+}
+.header{
+    background-color: aqua;
+}

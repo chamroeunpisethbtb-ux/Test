@@ -1,0 +1,63 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: turquoise;
+    border-radius: 25px;
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+.navbar-item:hover{
+    background-color: rgb(246, 241, 241);
+}
+.navbar-item{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.logo{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.button{
+            padding: 6px;
+            color: blue;
+            background-color: yellow;
+            border: none;
+            margin-right: 20px;
+            border-radius: 6px;
+}
+.Header1{
+    color: blue;
+    font-family: 'khmer os battambang';
+}
+.img-list{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    background-color: turquoise;
+    margin-top: 30px;
+}
+.img{
+    width: 300px;
+    height: 400px;
+}
+.img-list{
+    gap: 50px;
+    margin-top: 50px;
+}
+.txt{
+    text-align: center;
+    font-size: 50px;
+}

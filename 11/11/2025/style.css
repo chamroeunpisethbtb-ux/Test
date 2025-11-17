@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    color: white;
+    text-decoration: none;
+}
+.menu-icon{
+    display: none;
+    color: white;
+}
+@media (max-width: 768px){
+    .nav-list{
+        display: flex;
+    }
+    .menu-icon{
+    display: flex;
+}
+}
